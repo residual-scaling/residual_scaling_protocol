@@ -9,6 +9,10 @@ class RSMetaType:
     SERVER_SEND = 4
 
 
+class RSMsgDelimiter:
+    RSJOINBLOCK = "<RSJOINBLOCK>"
+
+
 class RSMetaMsg:
     def __init__(self, meta_type: RSMetaType, meta_len: int=0):
         self.meta_type = meta_type
@@ -23,3 +27,6 @@ class RSMetaMsg:
         mtype, mlen = struct.unpack("ii", bdata)
         return RSMetaMsg(mtype, mlen)
 
+    @staticmethod
+    def get_size() -> int:
+        return struct.calcsize("ii")

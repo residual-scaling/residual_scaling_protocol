@@ -4,7 +4,5 @@ setup(
     name="rsprotocol",
     version="0.1",
     packages=find_packages(),
-    install_requires=[
-        struct
-    ]
+    install_requires=[]
 )

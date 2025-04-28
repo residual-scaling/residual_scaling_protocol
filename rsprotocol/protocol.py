@@ -2,11 +2,12 @@ import struct
 
 
 class RSMetaType:
-    CLIENT_PUT = 1
-    CLIENT_GET = 2
+    CLIENT_PUT = 10
+    CLIENT_GET = 11
+    CLIENT_SAVE = 12
 
-    SERVER_OK = 3
-    SERVER_SEND = 4
+    SERVER_OK = 20
+    SERVER_SEND = 21
 
 
 class RSMsgDelimiter:

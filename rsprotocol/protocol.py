@@ -16,6 +16,7 @@ class RSGetType:
     WITHOUT_SCORE = 32
 
 class RSMsgDelimiter:
+    RS_SCORE_SEPERATOR = ";"
     RSJOINBLOCK = "<RSJOINBLOCK>"
 
 

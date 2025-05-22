@@ -1,6 +1,0 @@
-README.md
-setup.py
-rsprotocol.egg-info/PKG-INFO
-rsprotocol.egg-info/SOURCES.txt
-rsprotocol.egg-info/dependency_links.txt
-rsprotocol.egg-info/top_level.txt
